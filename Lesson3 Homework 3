@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style> h1, h2, h3, p {color: red;}
+			h1 {
+				color: green;
+				text-align: center;}
+			h2 {
+				color: blue;
+				width: 300px;
+				text-align: right;
+				font-size: 20px;}
+			h3 {color: orange;}
+			p 	{
+				text-align: justify;
+				font-size: 15px;} 
+	</style>
+</head>
+<body>
+	<h1> Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Animi adipisci consequuntur sit cupiditate laboriosam vitae, saepe possimus, odit officiis accusantium tenetur labore quos. Perferendis veritatis saepe, quaerat cupiditate iusto maxime. H1</h1>
+	<h2>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Necessitatibus natus dignissimos facere, cumque id consequuntur impedit quasi harum repellat autem rem blanditiis ipsam ad qui iusto, amet obcaecati deserunt, sit. H2</h2>
+	<h2>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Sunt reprehenderit error cumque incidunt corporis, debitis nisi obcaecati sit perferendis fuga consequuntur quaerat vero aspernatur totam quos, animi nobis vitae, nesciunt. H2</h2>
+	<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rerum ut eaque atque quos doloribus, hic quasi esse, asperiores in sit labore consectetur sunt natus pariatur similique tempora molestiae harum. H2</h2>
+	<h3>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Enim error cum quasi rerum quae aspernatur assumenda impedit ea, minima labore veritatis inventore, a minus ducimus dolorem voluptate hic, unde eaque. H3</h3>
+	<h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quidem, culpa temporibus dolorem dicta necessitatibus expedita, velit voluptas odit incidunt perspiciatis commodi eos neque dignissimos tenetur ipsa deleniti totam illo. H3</h3>
+	<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, sed ducimus dolorum deleniti, aut dolore. Aut, nobis similique voluptatem autem iusto, magni! Dolorum reiciendis alias assumenda hic distinctio doloremque, quidem! H3</h3>
+	<p  style="color: green;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni sapiente, ex fugiat doloribus reiciendis, totam accusantium nobis sed beatae quos blanditiis. Voluptatem voluptas beatae fugit eum optio ea esse quae. P</p>
+	<p style="color: red; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cupiditate, debitis qui unde eveniet deserunt facere. Molestiae, natus, similique voluptates, minima veritatis id esse quasi dolores reprehenderit neque culpa corporis! P</p>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Dolor rem repellendus veritatis fugiat! Quia vel, amet molestiae cupiditate. Perspiciatis velit esse ducimus. Aliquam quis ipsa doloribus distinctio voluptatem voluptatibus minus. P</p>
+	<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quisquam, beatae assumenda. Tenetur molestias dolorum sapiente magnam non ipsam. Animi dolorem possimus voluptate in accusantium labore illum voluptates, distinctio a? P</p>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatibus culpa dolor eveniet explicabo at unde ea dolore exercitationem, ut esse minus soluta fuga. Quisquam repellat a, magni repudiandae deserunt. P</p>
+	
+</body>
+</html>
