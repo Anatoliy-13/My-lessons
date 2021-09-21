@@ -1,0 +1,132 @@
+.container {
+	border: 2px solid green;
+	width: 80%;
+	margin: auto;
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+html {
+	height: 100%;
+}
+.red__first {
+	height: 20%;
+	border: 2px solid red;
+	width: 90%;
+	margin: 10px auto;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first__blue__block {
+	width: 23%;
+	border: 2px solid blue;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.second__block__blue {
+	width: 48%;
+	border: 2px solid red;
+	height: 80%;
+}
+.first__block__yellow {
+	width: 84%;
+	height: 40%;
+	border: 2px solid yellow;
+	margin: auto;
+}
+.second__block__yellow {
+	width: 84%;
+	height: 40%;
+	border: 2px solid yellow;
+	margin: auto;
+}
+.red__second {
+	border: 2px solid red;
+	width: 90%;
+	height: 10%;
+	margin: auto;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.red__third {
+	width: 90%;
+	height: 42%;
+	border: 2px solid red;
+	margin: 10px auto;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.red__fourth {
+	width: 90%;
+	height: 20%;
+	border: 2px solid red;
+	margin: 10px auto;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first__second__block__blue {
+	width: 23%;
+	height: 80%;
+	border: 2px solid blue;
+	margin: 7px auto;
+}
+
+.first__third__blue__block {
+	width: 23%;
+	border: 2px solid blue;
+	height: 90%;
+	margin: 7px auto;
+}
+.second__third__blue__block {
+	width: 73%;
+	border: 2px solid blue;
+	height: 90%;
+	margin: 7px auto;
+	display: flex;
+	flex-direction: column;	
+}
+.first__third__yellow__block {
+	border: 2px solid yellow;
+	width: 94%;
+	height: 70%;
+	margin: auto;
+}
+.second__third__yellow__block {
+	border: 2px solid yellow;
+	width: 94%;
+	height: 20%;
+	margin: auto;
+} 
+.first__tourth__blue__block {
+	width: 23%;
+	border: 2px solid blue;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.second__tourth__blue__block {
+	width: 48%;
+	border: 2px solid red;
+	height: 80%;
+}
+.first__tourth__yellow__block {
+	width: 84%;
+	height: 40%;
+	border: 2px solid yellow;
+	margin: auto
+}
+.second__tourth__yellow__block {
+	width: 84%;
+	height: 40%;
+	border: 2px solid yellow;
+	margin: auto
+}
