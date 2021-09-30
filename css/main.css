@@ -1,0 +1,35 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+nav {
+	margin: 300px 0 200px 100px;
+	background: grey;
+	width: 90vw;
+	height: 110px;
+	display: flex;
+	justify-content: space-between;
+}
+.header a {
+	color: lightgrey;
+	text-decoration: none;
+	padding: 20px 50px;
+}
+.tab__left {
+	display: flex;
+	margin: auto;
+}
+.tab__left li {
+	border-right: 1px solid lightgrey;
+} 
+.tab__right {
+	display: flex;
+	margin: auto;
+}
+.tab__left a:hover {
+	color: greenyellow;
+}
+.tab__right a:hover {
+	color: greenyellow;
+}
