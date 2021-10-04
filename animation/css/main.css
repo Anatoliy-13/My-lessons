@@ -1,0 +1,122 @@
+*{
+	/*width: 0px;*/
+	/*height: 0px;*/
+}
+.wrapp {
+	display: flex;
+}
+body{
+	overflow: hidden;
+}
+.wrapp>div{
+	height: 100vh;
+}
+.left__side{
+	background: red;
+	width: 33vw;
+	transform: translate(-33vw, 0);
+	animation-name: slideFromLeft;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-timing-function: ease;
+}
+@keyframes slideFromLeft{
+	from{
+		transform: translate(-33vw, 0);
+	}
+	to{
+		transform: translate(0, 0);
+	}
+}
+.right__side{
+	background: red;
+	width: 33vw;
+	transform: translate(33vw, 0);
+	animation-name: slideFromRight;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-timing-function: ease;
+}
+@keyframes slideFromRight{
+	from{
+		transform: translate(33vw, 0);
+	}
+	to{
+		transform: translate(0, 0);
+	}
+}
+.center{
+	width: 34vw;
+	background: green;
+	transform: translate(0, 100vh);
+	animation-name: slideFromBottom;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-timing-function: ease;
+	animation-delay: 0.5s;
+}
+@keyframes slideFromBottom{
+	from{
+		transform: translate(0, 100vh);
+	}
+	to{
+		transform: translate(0, 0);
+	}
+}
+.center img{
+	animation-name: opacityCentralBlock;
+	animation-delay: 1.5s;
+	animation-duration: 1s;
+	opacity: 0;
+	animation-fill-mode: both;
+}
+.center p{
+	animation-name: opacityCentralBlock;
+	animation-delay: 1.5s;
+	animation-duration: 1s;
+	opacity: 0;
+	animation-fill-mode: both;
+}
+@keyframes opacityCentralBlock{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.left__side p{
+	animation-name: opacityLeftSide;
+	animation-delay: 2s;
+	animation-duration: 1s;
+	opacity: 0;
+	animation-fill-mode: both;
+}
+.right__side p{
+	animation-name: opacityLeftSide;
+	animation-delay: 2s;
+	animation-duration: 1s;
+	opacity: 0;
+	animation-fill-mode: both;
+}
+.left__side img{
+	animation-name: opacityLeftSide;
+	animation-delay: 2s;
+	animation-duration: 1s;
+	opacity: 0;
+	animation-fill-mode: both;
+}
+.right__side img{
+	animation-name: opacityLeftSide;
+	animation-delay: 2s;
+	animation-duration: 1s;
+	opacity: 0;
+	animation-fill-mode: both;
+}
+@keyframes opacityLeftSide{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
